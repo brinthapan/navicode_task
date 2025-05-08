@@ -18,7 +18,7 @@ const App = () => {
                 
 
                     {/* Product management routes */}
-                    <Route path="/productlist" element={<ProductList />} />
+                    <Route path="/" element={<ProductList />} />
                      <Route path="/addproduct" element={<AddProduct />} />
                     <Route path="/updateproduct/:id" element={<UpdateProduct />} />
                     
