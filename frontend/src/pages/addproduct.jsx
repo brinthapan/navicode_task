@@ -74,7 +74,7 @@ const AddProduct = () => {
       }
 
       setSuccess("Product added successfully!");
-      setTimeout(() => navigate("/productlist"), 1000); 
+      setTimeout(() => navigate("/"), 1000); 
     } catch (error) {
       console.error("Error adding product:", error);
       setError(error.message || "An error occurred while adding the product");

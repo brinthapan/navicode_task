@@ -97,7 +97,7 @@ const EditProduct = () => {
 
             setSuccess("Product updated successfully!");
             setTimeout(() => {
-                navigate("/productlist");
+                navigate("/");
             }, 1500);
         } catch (error) {
             setError(error.message || "An error occurred while updating the product");
