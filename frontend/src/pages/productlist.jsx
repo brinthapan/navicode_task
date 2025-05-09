@@ -101,7 +101,7 @@ const ProductList = () => {
             {currentProducts.map((product, index) => (
               <tr
                 key={product._id}
-                className={index % 2 === 0 ? 'bg-white' : 'bg-gray-100'}
+                className={index % 2 === 0 ? 'bg-gray-100' : 'bg-white'}
               >
                 <td className="py-3 px-4">{new Date(product.createdAt).toLocaleString()}</td>
                 <td className="py-3 px-4">{product.name}</td>
